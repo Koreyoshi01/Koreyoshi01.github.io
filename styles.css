@@ -61,7 +61,7 @@ main {
 /* 轮播图样式 */
 .carousel {
     position: relative;
-    max-width: 600px; /* 增加最大宽度以适应更大的图片 */
+    max-width: 600px; /* 增加最大宽度以适应更大的��片 */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -212,7 +212,7 @@ footer {
 }
 
 .social-links a.zhihu {
-    color: #0084ff; /* 知乎的品牌色 */
+    color: #0084ff; /* 知乎的品牌��� */
 }
 
 .social-links a.zhihu:hover {
@@ -246,6 +246,7 @@ footer {
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
+    width: 100%; /* 确保表单占满容器宽度 */
 }
 
 #contact-form input,
@@ -254,10 +255,12 @@ footer {
     padding: 0.5rem;
     border: 1px solid #ddd;
     border-radius: 4px;
+    width: 100%; /* 确保输入框和文本区域占满表单宽度 */
 }
 
 #contact-form textarea {
     height: 150px;
+    resize: vertical; /* 允许用户调整文本区域的高度 */
 }
 
 #contact-form button {
@@ -267,6 +270,7 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    align-self: flex-start; /* 将按钮对齐到左侧 */
 }
 
 #contact-form button:hover {
@@ -277,4 +281,11 @@ footer {
     margin-top: 1rem;
     text-align: center;
     font-weight: bold;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    #contact-form {
+        padding: 0 1rem; /* 在小屏幕上添加一些左右内边距 */
+    }
 }
