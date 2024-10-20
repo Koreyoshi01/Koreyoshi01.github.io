@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koreyoshi的个人网站</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Koreyoshi的个人空间</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="carousel">
+                <div class="carousel-container">
+                    <img src="image1.jpg" alt="自拍照片">
+                    <img src="image2.jpg" alt="日落风景">
+                    <img src="image3.jpg" alt="城市风光">
+                </div>
+                <button class="carousel-button prev">&lt;</button>
+                <button class="carousel-button next">&gt;</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <img src="image4.jpg" alt="我的头像" class="avatar">
+                <div class="about-content">
+                    <h2>关于我</h2>
+                    <p>你好，我是Koreyoshi。我是一名热爱技术的开发者，对编程充满热情。</p>
+                    <ul class="interests">
+                        <li><i class="fas fa-code"></i> 编程</li>
+                        <li><i class="fas fa-book"></i> 阅读</li>
+                        <li><i class="fas fa-music"></i> 音乐</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <div id="chat-container">
+                <div id="chat-history"></div>
+                <div id="chat-input">
+                    <input type="text" id="user-input" placeholder="输入消息...">
+                    <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://weibo.com/u/7286007554" target="_blank" class="weibo"><i class="fab fa-weibo"></i></a>
+            <a href="https://www.zhihu.com/people/a35a3b8375f08b4bd96daf933b71dc03" target="_blank" class="zhihu"><i class="fab fa-zhihu"></i></a>
+            <a href="https://github.com/Koreyoshi01" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.xiaohongshu.com/user/profile/62a9952a000000001b02583a?xhsshare=CopyLink&appuid=62a9952a000000001b02583a&apptime=1729401716&share_id=7fbe0f5ca53345dfb219e490d16202e4" target="_blank" class="xiaohongshu"><i class="fas fa-book-open"></i></a>
+            <a href="https://b23.tv/p7ToN3K" target="_blank" class="bilibili"><i class="fab fa-bilibili"></i></a>
+        </div>
+        <p>&copy; 2024 Koreyoshi. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
