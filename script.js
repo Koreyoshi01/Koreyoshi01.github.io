@@ -26,58 +26,33 @@ setInterval(() => {
     showImage(currentIndex);
 }, 5000);
 
-// 聊天功能
-const chatHistory = document.getElementById('chat-history');
-const userInput = document.getElementById('user-input');
-const sendButton = document.getElementById('send-button');
+// 留言板功能
+const form = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
 
-function addMessage(message, isUser = true) {
-    const messageElement = document.createElement('div');
-    messageElement.classList.add('message', isUser ? 'user-message' : 'ai-message');
-    messageElement.textContent = message;
-    chatHistory.appendChild(messageElement);
-    chatHistory.scrollTop = chatHistory.scrollHeight;
-}
-
-async function getAIResponse(message) {
-    try {
-        const response = await fetch('/api/chat', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ message }),
-        });
-        const data = await response.json();
-        return data.reply;
-    } catch (error) {
-        console.error('Error:', error);
-        return '抱歉，我遇到了一些问题。请稍后再试。';
-    }
-}
-
-async function handleUserInput() {
-    const message = userInput.value.trim();
-    if (message) {
-        addMessage(message);
-        userInput.value = '';
-        
-        // 显示正在输入的提示
-        const typingIndicator = document.createElement('div');
-        typingIndicator.textContent = 'AI 正在输入...';
-        typingIndicator.classList.add('typing-indicator');
-        chatHistory.appendChild(typingIndicator);
-        
-        // 获取AI回复
-        const aiResponse = await getAIResponse(message);
-        chatHistory.removeChild(typingIndicator);
-        addMessage(aiResponse, false);
-    }
-}
-
-sendButton.addEventListener('click', handleUserInput);
-userInput.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') {
-        handleUserInput();
-    }
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(form);
+    fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            formStatus.innerHTML = "谢谢！您的留言已成功发送。";
+            form.reset();
+        } else {
+            response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                    formStatus.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                } else {
+                    formStatus.innerHTML = "糟糕！提交表单时出现问题。请稍后再试。";
+                }
+            })
+        }
+    }).catch(error => {
+        formStatus.innerHTML = "糟糕！提交表单时出现问题。请稍后再试。";
+    });
 });

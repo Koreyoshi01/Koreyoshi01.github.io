@@ -48,14 +48,14 @@
         </section>
 
         <section id="contact">
-            <h2>联系我</h2>
-            <div id="chat-container">
-                <div id="chat-history"></div>
-                <div id="chat-input">
-                    <input type="text" id="user-input" placeholder="输入消息...">
-                    <button id="send-button"><i class="fas fa-paper-plane"></i></button>
-                </div>
-            </div>
+            <h2>给我留言</h2>
+            <form id="contact-form" action="https://formspree.io/f/your_formspree_id" method="POST">
+                <input type="text" name="name" placeholder="您的名字" required>
+                <input type="email" name="email" placeholder="您的邮箱" required>
+                <textarea name="message" placeholder="您的留言" required></textarea>
+                <button type="submit">发送留言</button>
+            </form>
+            <div id="form-status"></div>
         </section>
     </main>
 
