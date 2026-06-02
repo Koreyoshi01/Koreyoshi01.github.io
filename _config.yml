@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hao Lin"
-description              : "Undergraduate student in Software Engineering at Huazhong University of Science and Technology."
+description              :
 repository               : "Koreyoshi01/Koreyoshi01.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Hao Lin (林浩)"
+  name             : "Hao Lin"
   avatar           : "images/照片.png"
-  bio              : "Software Engineering Undergraduate, HUST"
+  bio              : "Undergraduate in Software Engineering , HUST"
   location         : "Wuhan, China"
   employer         : "School of Software Engineering, HUST"
   pubmed           : 
   googlescholar    :
-  email            : "u202317253@hust.edu.cn"
+  email            : "haolin@hust.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
