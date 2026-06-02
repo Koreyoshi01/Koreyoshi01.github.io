@@ -35,7 +35,7 @@ I have maintained a strong academic record at HUST, with a five-semester GPA of 
 </div>
 
 <div class="publication-card">
-  <img class="publication-thumb" src="images/pub-clipglasses.svg" alt="CLIP negation paper figure">
+  <img class="publication-thumb" src="images/CLIPGLASSES.png" alt="CLIP negation paper figure">
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2602.21035">Not Just What's There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning</a></h3>
     <p class="publication-authors">Junhao Xiao, Zhiyu Wu, <strong>Hao Lin</strong>, Yi Chen, Yahui Liu, Xiaoran Zhao, Zixu Wang, Zejiang He</p>
@@ -45,7 +45,7 @@ I have maintained a strong academic record at HUST, with a five-semester GPA of 
 </div>
 
 <div class="publication-card publication-selected">
-  <img class="publication-thumb" src="images/pub-visd.svg" alt="VISD paper figure">
+  <img class="publication-thumb" src="images/VISD.png" alt="VISD paper figure">
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.06094">VISD: Enhancing Video Reasoning via Structured Self-Distillation</a></h3>
     <p class="publication-authors"><strong>Hao Lin</strong>, Kunyang Lv, Xu Jiang, Jingqi Tian, Zhongjing Du, Jiayu Ding, Qiaoman Zhang, Hongbo Jin</p>
@@ -55,7 +55,7 @@ I have maintained a strong academic record at HUST, with a five-semester GPA of 
 </div>
 
 <div class="publication-card publication-selected">
-  <img class="publication-thumb" src="images/pub-focused-forcing.svg" alt="Focused Forcing paper figure">
+  <img class="publication-thumb" src="images/Focusedforcing.png" alt="Focused Forcing paper figure">
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.18346">Focused Forcing: Content-Aware Per-Frame KV Selection for Efficient Autoregressive Video Diffusion</a></h3>
     <p class="publication-authors">Peiliang Cai, Evelyn Zhang, Jiacheng Liu, <strong>Hao Lin</strong>, Ruiqi Zhang, Weile Mo, Yue Ma, Shikang Zheng, Jiehang Huang, Dongrui Liu, Linfeng Zhang</p>
@@ -65,7 +65,7 @@ I have maintained a strong academic record at HUST, with a five-semester GPA of 
 </div>
 
 <div class="publication-card">
-  <img class="publication-thumb" src="images/pub-domino.svg" alt="Domino paper figure">
+  <img class="publication-thumb" src="images/domino.png" alt="Domino paper figure">
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.29707v1">Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding</a></h3>
     <p class="publication-authors">Jianuo Huang, Yaojie Zhang, Qituan Zhang, <strong>Hao Lin</strong>, Hanlin Xu, Linfeng Zhang</p>
@@ -75,7 +75,7 @@ I have maintained a strong academic record at HUST, with a five-semester GPA of 
 </div>
 
 <div class="publication-card">
-  <img class="publication-thumb" src="images/pub-memesleuth.svg" alt="MemeSleuth-Bench paper figure">
+  <img class="publication-thumb" src="images/meme.png" alt="MemeSleuth-Bench paper figure">
   <div class="publication-content">
     <h3>MemeSleuth-Bench: Can Models Detect Chinese Internet Meme Origins Through Web Retrieval?</h3>
     <p class="publication-authors">Author list pending public release; <strong>Hao Lin</strong> as core contributor.</p>
