@@ -34,11 +34,6 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 
 # 📝 Publications
 
-<div class="publication-toggle" aria-label="Publication filters">
-  <span class="publication-toggle-active">All Publications</span>
-  <span>Selected Only</span>
-</div>
-
 <div class="publication-card">
   <img class="publication-thumb" src="images/CLIPGLASSES.png" alt="CLIP negation paper figure">
   <div class="publication-content">
@@ -110,7 +105,7 @@ My academic exploration focuses on multimodal foundation models, video reasoning
     <p>Internship, 2025.07 - 2025.08</p>
     <p>Topic: Multimodal Document Understanding and OCR Benchmarking</p>
   </div>
-  <div class="timeline-logo"><img class="timeline-logo-img" src="images/百度logo.jpg" alt="Baidu logo"></div>
+  <div class="timeline-logo"><img class="timeline-logo-img" src="images/baidu_logo.png" alt="Baidu logo"></div>
 </div>
 
 # 📖 Educations
