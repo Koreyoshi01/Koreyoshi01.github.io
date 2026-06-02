@@ -14,11 +14,10 @@ Hi! I am **Hao Lin** (Chinese: 林浩), a **third-year undergraduate student** m
 
 # 🔍 Research
 
-My academic exploration focuses on multimodal foundation models, video reasoning, and efficient generative systems. Currently, my research is focused on:
+My academic exploration focuses on multimodal foundation models, video reasoning, reinforcement learning and efficient generative systems. Currently, my research is focused on:
 
 - Multimodal Large Language Models and Vision-Language Reasoning 🔭
-- Video Reasoning and Generation 🎬
-- Reinforcement Learning
+- Video Reasoning and Reinforcement Learning 🎬
 - Efficient Video Generation and Inference ⚡
 - World Models 🌍
 
