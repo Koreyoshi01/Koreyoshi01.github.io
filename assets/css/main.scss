@@ -121,22 +121,36 @@ h1:before, .anchor:before {
     padding: .75rem .95rem;
     position: relative;
 
+    .publication-image-link {
+        background: #fff;
+        border-radius: 7px;
+        display: block;
+        line-height: 0;
+        position: relative;
+        z-index: 1;
+    }
+
     .publication-thumb {
+        background: #fff;
         border-radius: 7px;
         cursor: zoom-in;
         height: 126px;
-        object-fit: cover;
+        object-fit: contain;
         position: relative;
         transition: transform .22s ease, box-shadow .22s ease, filter .22s ease;
         width: 100%;
         z-index: 1;
     }
 
-    .publication-thumb:hover {
+    .publication-image-link:hover {
+        z-index: 40;
+    }
+
+    .publication-image-link:hover .publication-thumb {
         background: #fff;
         box-shadow: 0 18px 42px rgba(36, 45, 60, .22);
         filter: saturate(1.02);
-        transform: scale(2.25);
+        transform: scale(1.5);
         z-index: 40;
     }
 
