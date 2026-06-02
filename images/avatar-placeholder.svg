@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Hao Lin avatar placeholder</title>
+  <desc id="desc">A simple placeholder avatar with the initials HL.</desc>
+  <rect width="512" height="512" rx="96" fill="#f4f7fb"/>
+  <circle cx="256" cy="190" r="88" fill="#d8e3f2"/>
+  <path d="M104 438c24-98 86-148 152-148s128 50 152 148" fill="#d8e3f2"/>
+  <text x="256" y="276" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="132" font-weight="700" fill="#24456d">HL</text>
+</svg>
