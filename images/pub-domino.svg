@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Domino figure placeholder</title>
+  <desc id="desc">Placeholder for the Domino speculative decoding paper figure.</desc>
+  <rect width="800" height="500" rx="28" fill="#fffdfc"/>
+  <g transform="translate(112 120)">
+    <rect x="0" y="0" width="92" height="92" rx="16" fill="#d8e7f5"/>
+    <rect x="118" y="0" width="92" height="92" rx="16" fill="#f1d8d5"/>
+    <rect x="236" y="0" width="92" height="92" rx="16" fill="#d8e7f5"/>
+    <rect x="354" y="0" width="92" height="92" rx="16" fill="#f1d8d5"/>
+    <rect x="472" y="0" width="92" height="92" rx="16" fill="#d8e7f5"/>
+    <circle cx="46" cy="46" r="10" fill="#2f4054"/>
+    <circle cx="164" cy="46" r="10" fill="#2f4054"/>
+    <circle cx="282" cy="46" r="10" fill="#2f4054"/>
+    <circle cx="400" cy="46" r="10" fill="#2f4054"/>
+    <circle cx="518" cy="46" r="10" fill="#2f4054"/>
+  </g>
+  <path d="M156 286h488" stroke="#7d9bc0" stroke-width="16" stroke-linecap="round"/>
+  <path d="M578 252l66 34-66 34" fill="none" stroke="#7d9bc0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="388" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#2f4054">Speculative Decoding</text>
+</svg>
