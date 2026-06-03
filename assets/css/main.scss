@@ -147,11 +147,36 @@ h1:before, .anchor:before {
     }
 
     .publication-image-link:hover .publication-thumb {
-        background: #fff;
-        box-shadow: 0 18px 42px rgba(36, 45, 60, .22);
         filter: saturate(1.02);
-        transform: scale(1.5);
-        z-index: 40;
+    }
+
+    .publication-preview {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 22px 56px rgba(36, 45, 60, .26);
+        display: none;
+        left: 0;
+        line-height: 0;
+        max-width: min(72vw, 720px);
+        padding: .45rem;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 520px;
+        z-index: 80;
+
+        img {
+            display: block;
+            height: auto;
+            max-height: 72vh;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+
+    .publication-image-link:hover .publication-preview {
+        display: block;
     }
 
     .publication-content {
@@ -218,6 +243,10 @@ h1:before, .anchor:before {
         .publication-thumb {
             height: auto;
             max-height: 220px;
+        }
+
+        .publication-preview {
+            display: none;
         }
     }
 }

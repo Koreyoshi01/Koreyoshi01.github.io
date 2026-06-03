@@ -31,13 +31,13 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 - *2026.02*: 🎉 We released the paper [**Not Just What's There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning**](https://arxiv.org/abs/2602.21035).
 - *2025.11*: 🎉 Our paper **Not Just What's There** was accepted by **AAAI 2026** as a poster.
 - *2025.09*: 🎖️ Honored to receive the **National Scholarship**.
-- *2025.7*:  💼 Started my internship at Baidu PaddleOCR, focusing on Multimodal Document Understanding and OCR Benchmarking.
+- *2025.07*:  💼 Started my internship at Baidu PaddleOCR, focusing on Multimodal Document Understanding and OCR Benchmarking.
 - *2024.12*: 🎖️ Honored to receive the **National Scholarship**.
 
 # 📝 Publications
 
 <div class="publication-card">
-  <a class="publication-image-link" href="images/CLIPGLASSES.png" title="CLIP negation paper figure"><img class="publication-thumb" src="images/CLIPGLASSES.png" alt="CLIP negation paper figure"></a>
+  <a class="publication-image-link" href="images/CLIPGLASSES.png" title="CLIP negation paper figure"><img class="publication-thumb" src="images/CLIPGLASSES.png" alt="CLIP negation paper figure"><span class="publication-preview"><img src="images/CLIPGLASSES.png" alt=""></span></a>
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2602.21035">Not Just What's There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning</a></h3>
     <p class="publication-authors">Junhao Xiao, Zhiyu Wu, <strong>Hao Lin</strong>, Yi Chen, Yahui Liu, Xiaoran Zhao, Zixu Wang, Zejiang He</p>
@@ -47,7 +47,7 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 </div>
 
 <div class="publication-card publication-selected">
-  <a class="publication-image-link" href="images/VISD.png" title="VISD paper figure"><img class="publication-thumb" src="images/VISD.png" alt="VISD paper figure"></a>
+  <a class="publication-image-link" href="images/VISD.png" title="VISD paper figure"><img class="publication-thumb" src="images/VISD.png" alt="VISD paper figure"><span class="publication-preview"><img src="images/VISD.png" alt=""></span></a>
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.06094">VISD: Enhancing Video Reasoning via Structured Self-Distillation</a></h3>
     <p class="publication-authors"><strong>Hao Lin</strong>, Kunyang Lv, Xu Jiang, Jingqi Tian, Zhongjing Du, Jiayu Ding, Qiaoman Zhang, Hongbo Jin</p>
@@ -57,7 +57,7 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 </div>
 
 <div class="publication-card publication-selected">
-  <a class="publication-image-link" href="images/Focusedforcing.png" title="Focused Forcing paper figure"><img class="publication-thumb" src="images/Focusedforcing.png" alt="Focused Forcing paper figure"></a>
+  <a class="publication-image-link" href="images/Focusedforcing.png" title="Focused Forcing paper figure"><img class="publication-thumb" src="images/Focusedforcing.png" alt="Focused Forcing paper figure"><span class="publication-preview"><img src="images/Focusedforcing.png" alt=""></span></a>
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.18346">Focused Forcing: Content-Aware Per-Frame KV Selection for Efficient Autoregressive Video Diffusion</a></h3>
     <p class="publication-authors">Peiliang Cai, Evelyn Zhang, Jiacheng Liu, <strong>Hao Lin</strong>, Ruiqi Zhang, Weile Mo, Yue Ma, Shikang Zheng, Jiehang Huang, Dongrui Liu, Linfeng Zhang</p>
@@ -67,17 +67,17 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 </div>
 
 <div class="publication-card">
-  <a class="publication-image-link" href="images/domino.png" title="Domino paper figure"><img class="publication-thumb" src="images/domino.png" alt="Domino paper figure"></a>
+  <a class="publication-image-link" href="images/domino.png" title="Domino paper figure"><img class="publication-thumb" src="images/domino.png" alt="Domino paper figure"><span class="publication-preview"><img src="images/domino.png" alt=""></span></a>
   <div class="publication-content">
     <h3><a href="https://arxiv.org/abs/2605.29707">Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding</a></h3>
     <p class="publication-authors">Jianuo Huang, Yaojie Zhang, Qituan Zhang, <strong>Hao Lin</strong>, Hanlin Xu, Linfeng Zhang</p>
     <p class="publication-desc">A speculative decoding framework that decouples causal dependency modeling from autoregressive drafting, improving draft quality while keeping parallel drafting efficient.</p>
-    <p class="publication-links"><span>EMNLP 2026</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
+    <p class="publication-links"><span>EMNLP 2026 Under Review</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
   </div>
 </div>
 
 <div class="publication-card">
-  <a class="publication-image-link" href="images/meme.png" title="MemeSleuth-Bench paper figure"><img class="publication-thumb" src="images/meme.png" alt="MemeSleuth-Bench paper figure"></a>
+  <a class="publication-image-link" href="images/meme.png" title="MemeSleuth-Bench paper figure"><img class="publication-thumb" src="images/meme.png" alt="MemeSleuth-Bench paper figure"><span class="publication-preview"><img src="images/meme.png" alt=""></span></a>
   <div class="publication-content">
     <h3>MemeSleuth-Bench: Can Models Detect Chinese Internet Meme Origins Through Web Retrieval?</h3>
     <p class="publication-authors">Shengjie Xu, Tianyi Wang, ..., <strong>Hao Lin</strong>, Mengran Zhu, Zhenghao Gao, Chengrui Hu, Zehua Lyu</p>
