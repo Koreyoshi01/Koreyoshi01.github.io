@@ -42,7 +42,7 @@ My academic exploration focuses on multimodal foundation models, video reasoning
     <h3><a href="https://arxiv.org/abs/2602.21035">Not Just What's There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning</a></h3>
     <p class="publication-authors">Junhao Xiao, Zhiyu Wu, <strong>Hao Lin</strong>, Yi Chen, Yahui Liu, Xiaoran Zhao, Zixu Wang, Zejiang He</p>
     <p class="publication-desc">A plug-and-play framework for improving CLIP's understanding of negated visual descriptions while keeping the CLIP backbone frozen.</p>
-    <p class="publication-links"><span>AAAI 2026 Poster</span> <a href="https://arxiv.org/abs/2602.21035">[arXiv]</a> <a href="source/pdf/AAAI-Poster.pdf">[poster]</a></p>
+    <p class="publication-links"><span>AAAI 2026 Poster</span> <a href="https://arxiv.org/abs/2602.21035">[arXiv]</a> <a href="https://github.com/Codecode-X/CLIPGlasses">[code]</a> <a href="source/pdf/AAAI-Poster.pdf">[poster]</a></p>
   </div>
 </div>
 
