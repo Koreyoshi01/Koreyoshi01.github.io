@@ -153,17 +153,19 @@ h1:before, .anchor:before {
     .publication-preview {
         background: #fff;
         border-radius: 10px;
-        box-shadow: 0 22px 56px rgba(36, 45, 60, .26);
-        display: none;
+        box-shadow: 0 24px 64px rgba(36, 45, 60, .28);
         left: 0;
         line-height: 0;
-        max-width: min(72vw, 720px);
+        max-width: min(86vw, 900px);
+        opacity: 0;
         padding: .45rem;
         pointer-events: none;
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
-        width: 520px;
+        transform: translateY(-48%) scale(.96);
+        transition: opacity .18s ease, transform .22s cubic-bezier(.2, .8, .2, 1), visibility .18s ease;
+        visibility: hidden;
+        width: 760px;
         z-index: 80;
 
         img {
@@ -176,7 +178,9 @@ h1:before, .anchor:before {
     }
 
     .publication-image-link:hover .publication-preview {
-        display: block;
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+        visibility: visible;
     }
 
     .publication-content {
