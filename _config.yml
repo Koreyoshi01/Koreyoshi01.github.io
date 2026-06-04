@@ -22,7 +22,7 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Hao Lin"
-  avatar: "images/照片.png"
+  avatar: "images/photo.png"
   bio: "Undergraduate at Huazhong University of Science and Technology (HUST)"
   location: "Wuhan, China"
   # employer         : "School of Software Engineering, HUST"
