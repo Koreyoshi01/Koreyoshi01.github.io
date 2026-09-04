@@ -72,29 +72,19 @@ My academic exploration focuses on multimodal foundation models, video reasoning
     <h3><a href="https://arxiv.org/abs/2605.29707">Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding</a></h3>
     <p class="publication-authors">Jianuo Huang, Yaojie Zhang, Qituan Zhang, <strong>Hao Lin</strong>, Hanlin Xu, Linfeng Zhang</p>
     <p class="publication-desc">A speculative decoding framework that decouples causal dependency modeling from autoregressive drafting, improving draft quality while keeping parallel drafting efficient.</p>
-    <p class="publication-links"><span>EMNLP 2026 Under Review</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
-  </div>
-</div>
-
-<div class="publication-card">
-  <a class="publication-image-link" href="images/meme.png" title="MemeSleuth-Bench paper figure"><img class="publication-thumb" src="images/meme.png" alt="MemeSleuth-Bench paper figure"><span class="publication-preview"><img src="images/meme.png" alt=""></span></a>
-  <div class="publication-content">
-    <h3>MemeSleuth-Bench: Can Models Detect Chinese Internet Meme Origins Through Web Retrieval?</h3>
-    <p class="publication-authors">Shengjie Xu, Tianyi Wang, ..., <strong>Hao Lin</strong>, Mengran Zhu, Zhenghao Gao, Chengrui Hu, Zehua Lyu</p>
-    <p class="publication-desc">A benchmark for evaluating whether multimodal models can trace Chinese internet meme origins through web retrieval and culturally grounded evidence seeking.</p>
-    <p class="publication-links"><span>ACM MM 2026 Under Review</span></p>
+    <p class="publication-links"><span>EMNLP 2026 Main</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
   </div>
 </div>
 
 # 🎖 Honors and Awards
-- *2026.03*: 🎖️ **FiberHome Telecommunication Scholarship(烽火通信企业奖学金)**,FiberHome
+- *2026.03*: 🎖️ **FiberHome Telecommunication Scholarship**,FiberHome
 - *2025.11*: 🥈 **National Second Prize**, Challenge Cup "AI+" Special Competition
-- *2025.09*: 🎖️ **National Scholarship(国家奖学金)**,Ministry of Education of China
+- *2025.09*: 🎖️ **National Scholarship**,Ministry of Education of China
 - *2025.09*: 🎖️**Academic Excellence Scholarship**,HUST
 - *2025.08*: 🥇 **National First Prize**, China Robotics and Artificial Intelligence Competition, AI Innovation Track
 - *2025.08*: 🥉 **National Third Prize**, China Robotics and Artificial Intelligence Competition, AI Innovation Track
 - *2025.06*: 🥉 **National Third Prize**, Lanqiao Cup AI Practical Competition
-- *2024.12*: 🎖️ **National Scholarship(国家奖学金)**,Ministry of Education of China
+- *2024.12*: 🎖️ **National Scholarship**,Ministry of Education of China
 - *2024.11*: 🥇 **First Prize in Hubei Province**, Chinese Mathematics Competition(CMC)
 - *2024.09*: 🎖️**Merit Student Scholarship**,HUST
 - *2024.03*: 🎖️**Freshman Self-Reliance Scholarship**,HUST
