@@ -24,9 +24,9 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 - World Models 🌍
 
 # 🔥 News
-- *2026.09*: 🎉 Our paper [**Domino**](https://arxiv.org/abs/2605.29707)was accepted by **EMNLP 2026 Main** as a Oral.
-- *2026.09*: 🎉 Our paper [**VISD**](https://arxiv.org/abs/2605.06094)was accepted by **NeurIPS 2026** as a poster.
-- *2026.09*: 🎉 Our paper [**Focused Forcing**](https://arxiv.org/abs/2605.18346)was accepted by **NeurIPS 2026** as a poster.
+- *2026.09*: 🎉 Our paper [**Domino**](https://arxiv.org/abs/2605.29707) was accepted by **EMNLP 2026 Main** as a Oral.
+- *2026.09*: 🎉 Our paper [**VISD**](https://arxiv.org/abs/2605.06094) was accepted by **NeurIPS 2026** as a poster.
+- *2026.09*: 🎉 Our paper [**Focused Forcing**](https://arxiv.org/abs/2605.18346) was accepted by **NeurIPS 2026** as a poster.
 - *2026.05*: 🎉 We released the paper [**Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding**](https://arxiv.org/abs/2605.29707).
 - *2026.05*: 🎉 We released the paper [**Focused Forcing: Content-Aware Per-Frame KV Selection for Efficient Autoregressive Video Diffusion**](https://arxiv.org/abs/2605.18346).
 - *2026.05*: 🎉 We released the paper [**VISD: Enhancing Video Reasoning via Structured Self-Distillation**](https://arxiv.org/abs/2605.06094).
