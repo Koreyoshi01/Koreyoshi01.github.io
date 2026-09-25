@@ -83,17 +83,18 @@ My academic exploration focuses on multimodal foundation models, video reasoning
 
 # 🎖 Honors and Awards
 - *2026.09*: 🎖️ **National Scholarship**,Ministry of Education of China
+- *2026.09*: 🎖️ **Merit Student Scholarship**,HUST
 - *2026.03*: 🎖️ **FiberHome Telecommunication Scholarship**,FiberHome
 - *2025.11*: 🥈 **National Second Prize**, Challenge Cup "AI+" Special Competition
 - *2025.09*: 🎖️ **National Scholarship**,Ministry of Education of China
-- *2025.09*: 🎖️**Academic Excellence Scholarship**,HUST
+- *2025.09*: 🎖️ **Academic Excellence Scholarship**,HUST
 - *2025.08*: 🥇 **National First Prize**, China Robotics and Artificial Intelligence Competition, AI Innovation Track
 - *2025.08*: 🥉 **National Third Prize**, China Robotics and Artificial Intelligence Competition, AI Innovation Track
 - *2025.06*: 🥉 **National Third Prize**, Lanqiao Cup AI Practical Competition
 - *2024.12*: 🎖️ **National Scholarship**,Ministry of Education of China
 - *2024.11*: 🥇 **First Prize in Hubei Province**, Chinese Mathematics Competition(CMC)
-- *2024.09*: 🎖️**Merit Student Scholarship**,HUST
-- *2024.03*: 🎖️**Freshman Self-Reliance Scholarship**,HUST
+- *2024.09*: 🎖️ **Merit Student Scholarship**,HUST
+- *2024.03*: 🎖️ **Freshman Self-Reliance Scholarship**,HUST
 
 # 💻 Experience
 
