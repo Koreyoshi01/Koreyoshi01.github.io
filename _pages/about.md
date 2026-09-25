@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am **Hao Lin** (Chinese: 林浩), a **third-year undergraduate student** majoring in **Software Engineering** at the [School of Software Engineering](https://sse.hust.edu.cn/), [Huazhong University of Science and Technology(HUST)](https://www.hust.edu.cn/) **(Rank: 2/116 , GPA: 93.06/100)** .
+Hi! I am **Hao Lin** (Chinese: 林浩), a **third-year undergraduate student** majoring in **Software Engineering** at the [School of Software Engineering](https://sse.hust.edu.cn/), [Huazhong University of Science and Technology(HUST)](https://www.hust.edu.cn/) **(Rank: 2/115 , GPA: 92.97/100)** .
 
 I am currently exploring how multimodal and video foundation models can reason more reliably, generate more efficiently, and maintain consistent dynamic world states over long contexts.
 
@@ -52,17 +52,7 @@ My academic exploration focuses on multimodal foundation models, video reasoning
     <h3><a href="https://arxiv.org/abs/2605.06094">VISD: Enhancing Video Reasoning via Structured Self-Distillation</a></h3>
     <p class="publication-authors"><strong>Hao Lin</strong>, Kunyang Lv, Xu Jiang, Jingqi Tian, Zhongjing Du, Jiayu Ding, Qiaoman Zhang, Hongbo Jin</p>
     <p class="publication-desc">A structured on-policy self-distillation framework for video reasoning RLVR, using teacher feedback on student rollouts for fine-grained credit assignment.</p>
-    <p class="publication-links"><span>NeurIPS 2026 Under Review</span> <a href="https://arxiv.org/abs/2605.06094">[arXiv]</a> <a href="https://lkyyy111.github.io/VISD/">[project page]</a> <a href="https://github.com/Koreyoshi01/VISD">[code]</a></p>
-  </div>
-</div>
-
-<div class="publication-card publication-selected">
-  <a class="publication-image-link" href="images/Focusedforcing.png" title="Focused Forcing paper figure"><img class="publication-thumb" src="images/Focusedforcing.png" alt="Focused Forcing paper figure"><span class="publication-preview"><img src="images/Focusedforcing.png" alt=""></span></a>
-  <div class="publication-content">
-    <h3><a href="https://arxiv.org/abs/2605.18346">Focused Forcing: Content-Aware Per-Frame KV Selection for Efficient Autoregressive Video Diffusion</a></h3>
-    <p class="publication-authors">Peiliang Cai, Evelyn Zhang, Jiacheng Liu, <strong>Hao Lin</strong>, Ruiqi Zhang, Weile Mo, Yue Ma, Shikang Zheng, Jiehang Huang, Dongrui Liu, Linfeng Zhang</p>
-    <p class="publication-desc">A training-free KV selection method that focuses cached history along generated-frame and attention-head dimensions for faster long video generation.</p>
-    <p class="publication-links"><span>NeurIPS 2026 Under Review</span> <a href="https://arxiv.org/abs/2605.18346">[arXiv]</a></p>
+    <p class="publication-links"><span>NeurIPS 2026 Poster</span> <a href="https://arxiv.org/abs/2605.06094">[arXiv]</a> <a href="https://lkyyy111.github.io/VISD/">[project page]</a> <a href="https://github.com/Koreyoshi01/VISD">[code]</a></p>
   </div>
 </div>
 
@@ -72,9 +62,21 @@ My academic exploration focuses on multimodal foundation models, video reasoning
     <h3><a href="https://arxiv.org/abs/2605.29707">Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding</a></h3>
     <p class="publication-authors">Jianuo Huang, Yaojie Zhang, Qituan Zhang, <strong>Hao Lin</strong>, Hanlin Xu, Linfeng Zhang</p>
     <p class="publication-desc">A speculative decoding framework that decouples causal dependency modeling from autoregressive drafting, improving draft quality while keeping parallel drafting efficient.</p>
-    <p class="publication-links"><span>EMNLP 2026 Main</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
+    <p class="publication-links"><span>EMNLP 2026 Oral(Main)</span> <a href="https://arxiv.org/abs/2605.29707">[arXiv]</a> <a href="https://github.com/jianuo-huang/Domino">[code]</a> <a href="https://huggingface.co/collections/Huang2020/domino">[models]</a></p>
   </div>
 </div>
+
+<div class="publication-card publication-selected">
+  <a class="publication-image-link" href="images/Focusedforcing.png" title="Focused Forcing paper figure"><img class="publication-thumb" src="images/Focusedforcing.png" alt="Focused Forcing paper figure"><span class="publication-preview"><img src="images/Focusedforcing.png" alt=""></span></a>
+  <div class="publication-content">
+    <h3><a href="https://arxiv.org/abs/2605.18346">Focused Forcing: Content-Aware Per-Frame KV Selection for Efficient Autoregressive Video Diffusion</a></h3>
+    <p class="publication-authors">Peiliang Cai, Evelyn Zhang, Jiacheng Liu, <strong>Hao Lin</strong>, Ruiqi Zhang, Weile Mo, Yue Ma, Shikang Zheng, Jiehang Huang, Dongrui Liu, Linfeng Zhang</p>
+    <p class="publication-desc">A training-free KV selection method that focuses cached history along generated-frame and attention-head dimensions for faster long video generation.</p>
+    <p class="publication-links"><span>NeurIPS 2026 Poster</span> <a href="https://arxiv.org/abs/2605.18346">[arXiv]</a></p>
+  </div>
+</div>
+
+
 
 # 🎖 Honors and Awards
 - *2026.03*: 🎖️ **FiberHome Telecommunication Scholarship**,FiberHome
